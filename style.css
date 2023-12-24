@@ -13,6 +13,7 @@
   --dl-size-size-xlarge: 192px;
   --dl-size-size-xsmall: 16px;
   --dl-space-space-unit: 16px;
+  --dl-color-color-black: rgba(0, 0, 0, 1);
   --dl-color-color-white: rgba(255, 255, 255, 1);
   --dl-color-gradient-06: rgba(255, 216, 208, 1);
   --dl-color-primary-100: #003EB3;
@@ -23,11 +24,13 @@
   --dl-color-success-500: #32A94C;
   --dl-color-success-700: #4CC366;
   --dl-size-size-xxlarge: 288px;
+  --dl-color-color-purple: rgba(70, 72, 255, 1);
   --dl-size-size-maxwidth: 1400px;
   --dl-radius-radius-round: 50%;
   --dl-space-space-halfunit: 8px;
   --dl-space-space-sixunits: 96px;
   --dl-space-space-twounits: 32px;
+  --dl-color-color-lightgrey: rgba(117, 119, 139, 1);
   --dl-color-gradientdark-01: rgba(22, 23, 31, 1);
   --dl-radius-radius-radius2: 2px;
   --dl-radius-radius-radius4: 4px;
@@ -79,6 +82,12 @@
   display: flex !important;
   transform: none !important;
 }
+.Scale152 {
+  font-size: 95px;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 500px;
+}
 .Content {
   font-size: 16px;
   font-family: Inter;
@@ -94,6 +103,13 @@
   line-height: 1.15;
   text-transform: none;
   text-decoration: none;
+}
+.Scale24 {
+  font-size: 24px;
+  font-style: normal;
+  font-family: Poppins;
+  font-weight: 500px;
+  font-stretch: normal;
 }
 .Scale240 {
   font-size: 120px;

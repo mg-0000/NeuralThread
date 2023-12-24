@@ -1,0 +1,14 @@
+.app-component-container {
+  display: flex;
+  position: relative;
+}
+.app-component-text {
+  color: var(--dl-color-gray-700);
+  font-size: 21px;
+}
+.app-component-root-class-name {
+  top: 137px;
+  left: var(--dl-space-space-sixunits);
+  right: var(--dl-space-space-sixunits);
+  position: absolute;
+}
